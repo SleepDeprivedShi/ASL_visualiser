@@ -1,4 +1,4 @@
-# 🖐️ ASL Visualizer – Real-Time Sign Recognition
+# ASL Visualizer – Real-Time Sign Recognition
 
 A real-time American Sign Language (ASL) visualizer that detects hand gestures using a webcam and predicts the corresponding ASL sign using computer vision and machine learning.
 

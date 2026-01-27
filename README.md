@@ -13,14 +13,16 @@ A real-time American Sign Language (ASL) visualizer that detects hand gestures u
 - Live prediction overlay on video feed
 
 ---
+
 ## Dataset & Model
 
 - The `Data/` directory is used to store training images for each ASL sign.
 - Due to the large number of images, the dataset is **not included** in this repository.
-- An example pre-trained model file `asl_knn_model.pkl` is included for quick testing.
+- An example pre-trained model file `asl_knn_model.pkl` is included and used by `recognize_gesture.py` for quick testing.
 
 ### Data Folder Structure
 
+```text
 Data/
 ├── A/
 │   ├── img_1.jpg
@@ -28,9 +30,9 @@ Data/
 │   └── ...
 ├── B/
 └── ...
+```
 
 You can generate your own dataset using `train.py`.
-
 
 ---
 
@@ -38,13 +40,14 @@ You can generate your own dataset using `train.py`.
 
 ### Python Dependencies
 
-- opencv-python  
-- cvzone  
-- numpy  
-- scikit-learn  
-- joblib  
+- opencv-python
+- cvzone
+- numpy
+- scikit-learn
+- joblib
 
 Install all dependencies using:
 
 ```bash
 pip install opencv-python cvzone numpy scikit-learn joblib
+```

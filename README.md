@@ -51,4 +51,3 @@ Install all dependencies using:
 ```bash
 pip install opencv-python cvzone numpy scikit-learn joblib
 ```
-Contributed by Ansh Dixit.
